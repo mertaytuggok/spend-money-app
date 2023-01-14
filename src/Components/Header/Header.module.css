@@ -20,3 +20,21 @@
   height: 12rem;
   border-radius: 100%;
 }
+@media screen and (max-width: 768px) {
+  .image {
+    width: 8rem;
+    height: 8rem;
+  }
+  .imgText {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .image {
+    width: 6rem;
+    height: 6rem;
+  }
+  .imgText {
+    font-size: 1.5rem;
+  }
+}

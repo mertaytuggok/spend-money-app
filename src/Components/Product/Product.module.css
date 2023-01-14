@@ -1,8 +1,13 @@
 .mainProduct {
   display: flex;
-  width: 100%;
   background-color: #f1f2f6;
-  margin-top: 50px;
+}
+.budget {
+  background-color: #24c486;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 5rem;
 }
 .Card {
   padding: 20px 15px;
@@ -77,5 +82,15 @@
   .cardContainer {
     margin: 0;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+  .budget {
+    padding: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cardContainer {
+    justify-content: center;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
   }
 }
