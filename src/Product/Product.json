@@ -1,5 +1,4 @@
-{
-    "products": [
+[
       {
         "id": "1",
         "productName": "Big Mac",
@@ -316,4 +315,4 @@
         "count": "0"
       }
     ]
-  }
+  
