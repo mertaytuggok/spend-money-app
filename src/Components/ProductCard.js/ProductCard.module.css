@@ -1,0 +1,128 @@
+.mainProduct {
+    display: flex;
+    background-color: #f1f2f6;
+  }
+  
+  .budget {
+    background-color: #24c486;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 5rem;
+  }
+  
+  .Card {
+    padding: 20px 15px;
+    background-color: #fff;
+  }
+  
+  .cardContainer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 0.8rem;
+  }
+  
+  .topCard {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 136px;
+    height: 120px;
+  }
+  
+  .Title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .Price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #24c486;
+    margin-top: 0.5rem;
+  }
+  
+  .bottomCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+  
+  .sellButton {
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(180deg,#f53b82,#f53b57);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input {
+    text-align: center;
+    max-width: 93px;
+    max-height: 38px;
+    padding: 9px 12px;
+    border: 1px solid #b2bec3;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .buyButton {
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(180deg, #2ecc71, #1abc9c);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .disSellButton{  padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    background: #f1f2f6!important;
+    }
+    .dissBuyButton{
+      padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: gray;
+    background: #f1f2f6!important;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    
+    }
+  
+  @media screen and (max-width: 768px) {
+    .cardContainer {
+      margin: 0;
+      grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+  
+    .budget {
+      padding: 1rem 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .cardContainer {
+      justify-content: center;
+      grid-template-columns: repeat(1, minmax(300px, 1fr));
+    }
+  }
