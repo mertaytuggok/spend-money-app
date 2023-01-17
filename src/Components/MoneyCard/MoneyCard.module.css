@@ -1,0 +1,15 @@
+.budget {
+    background-color: #24c486;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+  
+    .budget {
+      padding: 1rem 1rem;
+    }
+  }
